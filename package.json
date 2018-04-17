@@ -1,0 +1,16 @@
+{
+  "name": "xml2json-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "xml2json": "node scripts/xml2json.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xml2json": "^0.11.2",
+    "yargs": "^11.0.0"
+  }
+}
