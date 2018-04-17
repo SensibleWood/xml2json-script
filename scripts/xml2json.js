@@ -12,7 +12,7 @@ fs.readFile(argv.xml, 'utf-8', (err, data) => {
         throw err;
     }
 
-    console.log(JSON.stringify(JSON.parse(xml2json.toJson(data)), null, 2));
+    console.log(JSON.stringify(xml2json.toJson(data, {object: true}), null, 2));
 });
 
 
